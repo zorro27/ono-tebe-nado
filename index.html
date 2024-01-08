@@ -1,16 +1,111 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="ru">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
+  <title>Оно тебе надо</title>
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2487">
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
   </style>
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-<p class="p1">&lt;Hi word&gt;</p>
+  <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active" href="#link-main">главная</a>
+          </li>
+          <li class="header-nav-element-item">
+            <a class="header__link header__link_active" href="#link-lots">посмотреть лоты</a>
+          </li>
+          <li class="'header-nav-element-item">
+            <a class="header__link" href="#link-about">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__logo">
+       <a class="header__logo-image"></a>
+      </div>
+      <address class="address">
+        <div class="address__header">
+        <a class="address__info-element" href="tel:+9 999 555 5555">+9 999 555 5555</a><br>
+        <a class="address__info-element" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </div>
+      </address> 
+  </header>
+  <main>
+    <section class="cover">
+      <div class="overlay">
+        <div class="cover__title">
+            <span class="aligned-text">О<span class="letter-spacing-extended">но</span></span>
+            <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+            <span class="aligned-text_right"><span class="letter-spacing-extended">н<span class="no-letter-spacing">ад<span class="no-letter-spacing-0"">о</span></span></span>
+        </div>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <a class="bet-button">Сделать ставку</a>
+        </div>
+      </div>
+    </section>
+    <section class="lots">
+      <h2 class="lots__heading">Лоты</h2>
+      <ul class="lots__card-list">
+        <li class="lots__card-list-item">
+          <a class="card-link" href=“#”>
+            <article class="card">
+              <div class="card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </div>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <a class="card-link" href=“#”>
+            <article class="card">
+              <div class="card_type_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </div>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <a class="card-link" href=“#”>
+            <article class="card">
+              <div class="card_type_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </div>
+            </article>
+          </a>
+        </li>
+      </ul>
+      <a class="lots__look-more-link">посмотреть больше</a>
+    </section>
+    <section class="about">
+      <div class="about__column">
+        <div class="about__logo">
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="">
+        </div>
+      </div>
+      <div class="about__column">
+        <h3 class="about__title">Об аукционе</h3>
+        <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+        <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+  </footer>
 </body>
 </html>
