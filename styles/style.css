@@ -1,15 +1,15 @@
-.header{
+.header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   padding: 92px 24px 96px 24px;
 }
 
-.header__menu{
+.header__menu {
   display: flex;
-  margin: 44px 40px 39px 26px
+  margin: 44px 40px 39px 26px;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -17,19 +17,18 @@
   list-style-type: circle;
 }
 
-.header__links-list-item .header__link_active{
+.header__links-list-item .header__link_active {
   text-decoration: none;
 }
 
-.header__links-list .header__links-list-item_no-bullit{
+.header__links-list .header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
-.header__logo-image{
+.header__logo-image {
   display: block;
   background-image: url(../images/logo-black.svg);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   width: 148px;
   height: 105px;
@@ -37,33 +36,35 @@
   padding-bottom: 7px;
 }
 
-.address{
+.address {
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 18px;
+  font-weight: 400;
 }
 
-.address .address__header{
+.address .address__header {
   padding: 5px 25px 2px 184px;
 }
 
-.address__info-element{
+.address__info-element {
   text-decoration: none;
   border-bottom: 1px solid black;
 }
 
-.cover{
+.cover {
   position: relative;
   background-image: url(../images/cover.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 757px;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -72,7 +73,7 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.cover__title{
+.cover__title {
   position: relative;
   font-size: 100px;
   font-weight: 700;
@@ -85,42 +86,42 @@
   margin-right: 50px;
 }
 
-.aligned-text{
+.aligned-text {
   display: block;
   text-align: left;
   padding-bottom: 10px;
 }
 
-.aligned-text_center{
+.aligned-text_center {
   display: block;
   padding-left: 280px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
   display: block;
   text-align: right;
 }
 
-.aligned-text .letter-spacing-extended{
+.aligned-text .letter-spacing-extended {
   letter-spacing: 55px;
 }
 
-.aligned-text_center .letter-spacing-extended{
+.aligned-text_center .letter-spacing-extended {
   letter-spacing: 60px;
 }
 
-.aligned-text_right .letter-spacing-extended{
+.aligned-text_right .letter-spacing-extended {
   letter-spacing: 60px;
 }
 
-.aligned-text_right .letter-spacing-extended .no-letter-spacing{
+.aligned-text_right .letter-spacing-extended .no-letter-spacing {
   letter-spacing: 30px;
 }
-.aligned-text_right .letter-spacing-extended .no-letter-spacing-0{
+.aligned-text_right .letter-spacing-extended .no-letter-spacing-0 {
   letter-spacing: 0px;
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,20 +129,19 @@
   padding-right: 50px;
   padding-top: 158px;
   font-size: 22px;
- 
 }
 
-.cover__description-text{
+.cover__description-text {
   font-weight: 400;
   word-spacing: 17px;
 }
 
-.bet-button{
+.bet-button {
   font-weight: 500;
   width: 256px;
   height: 51px;
   padding: 12px 32px 11px 31px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   text-decoration: none;
 }
 
@@ -151,14 +151,14 @@
   padding-right: 24px;
 }
 
-.lots__heading{
+.lots__heading {
   padding-left: 40px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.lots__card-list{
+.lots__card-list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -169,7 +169,7 @@
   max-width: 1052px;
 }
 
-.card_type_film{
+.card_type_film {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -182,7 +182,7 @@
   width: 334px;
 }
 
-.card_type_book{
+.card_type_book {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -195,7 +195,7 @@
   width: 334px;
 }
 
-.card_type_picture{
+.card_type_picture {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -208,37 +208,36 @@
   width: 334px;
 }
 
-
-.card__title{
+.card__title {
   position: relative;
   padding-top: 48px;
   padding-left: 40px;
   padding-right: 40px;
   text-transform: uppercase;
   text-decoration: underline;
-  color: #FFF;
+  color: #fff;
   font-size: 22px;
   font-weight: 700;
 }
 
-.card__text{
+.card__text {
   position: relative;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 48px;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-weight: 400;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
   padding-left: 40px;
   font-size: 20px;
   font-weight: 400;
   text-decoration: underline;
 }
 
-.about{
+.about {
   padding-top: 146px;
   padding-left: 24px;
   padding-right: 24px;
@@ -247,7 +246,7 @@
   grid-template-rows: 595px;
 }
 
-.about__logo{
+.about__logo {
   position: relative;
   display: grid;
   justify-content: center;
@@ -262,12 +261,12 @@
   border-radius: 50%;
 }
 
-.about__logo-image{
+.about__logo-image {
   max-height: 114px;
   max-width: 148px;
 }
 
-.about__title{
+.about__title {
   padding-top: 133px;
   padding-bottom: 101px;
   text-transform: uppercase;
@@ -275,11 +274,51 @@
   font-weight: 700;
 }
 
-.about__text{
+.about__text {
   font-size: 20px;
   font-weight: 400;
 }
 
 .about__text:first-of-type {
-padding-bottom: 26px;
+  padding-bottom: 26px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 178px 50px 91px 50px;
+}
+
+.address__footer {
+  padding: 0;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__menu-link {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  list-style-type: none;
+  justify-content: end;
+}
+
+.footer__social-icon {
+  max-width: 48px;
+  max-height: 48px;
 }
