@@ -181,7 +181,7 @@
   height: 100%;
 }
 
-.card{
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -192,7 +192,7 @@
   background-size: cover;
 }
 
- .card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
@@ -211,7 +211,7 @@
   padding-top: 48px;
   padding-left: 40px;
   padding-right: 40px;
-  color: #fff;
+  color: white;
   font-size: 22px;
   font-weight: 700;
 }
@@ -221,7 +221,7 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 48px;
-  color: #fff;
+  color: white;
   font-size: 20px;
   font-weight: 400;
 }
@@ -277,7 +277,7 @@
   padding-bottom: 26px;
 }
 
-.about__text:last-child{
+.about__text:last-child {
   padding-bottom: 0px;
 }
 
